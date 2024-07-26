@@ -147,6 +147,25 @@ loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105
 end
 })
 local Tab = Window:MakeTab({
+    Name = "💪力量",
+    Icon = "rbxassetid://7734068321",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "💪力量传奇1",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+    end
+})
+
+Tab:AddButton({
+    Name = "💪力量传奇2",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true))()
+    end
+})
+local Tab = Window:MakeTab({
     Name = "🌟脚本中心🌟",
     Icon = "rbxassetid://7734068321",
     PremiumOnly = false
