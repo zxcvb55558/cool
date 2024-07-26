@@ -255,12 +255,12 @@ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\
 Tab:AddButton({
 	Name = "禁漫中心",
 	Callback = function()
-	getgenv().LS="禁漫中心" loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/ng/main/jmlllllllIIIIlllllII.lua"))()---公益		
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/ng/main/jmlllllllIIIIlllllII.lua"))()---公益		
         end    
 })
 
 Tab:AddButton({
-	Name = "•ᴗ•",
+	Name = "导管中心",
 	Callback = function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/yPhwFHy4"))()
 	end    
