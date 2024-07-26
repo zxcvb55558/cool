@@ -116,7 +116,7 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "阿尔宙斯",
+	Name = "脚本大全1.5",
 	Callback = function()
 	loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\101\109\120\72\119\65\49"))()
 	end    
@@ -140,13 +140,13 @@ loadstring(game:HttpGet("https://github.com/DXuwu/OK/raw/main/clip"))()
 end
 })
 Tab:AddButton({
-	Name = "变身(阿巴怪提供)",
+	Name = "变身",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))();
 end
 })
 Tab:AddButton({
-	Name = "微山2.3.2(依旧是阿巴怪提供)",
+	Name = "微山2.3.2",
 	Callback = function()
 --微山doors 2.3.2(愚人节快乐)
 loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\117\72\72\112\56\102\122\83"))()
