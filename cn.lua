@@ -82,7 +82,26 @@ Tab:AddButton({
 	Callback = function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end
-})		
+})
+local Tab = Window:MakeTab({
+	Name = "🤡最强战场🤡",
+	Icon = "rbxassetid://7734068321",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+  Name = "1",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Strongest/main/Battlegrounds77"))()
+  end
+})
+
+Tab:AddButton({
+   Name = "点击复制秘钥",
+   Callback = function()
+    setclipboard("BestTheStrongest5412Roblox")
+   end
+})
 local Tab = Window:MakeTab({
     Name = "🌟自然灾害",
     Icon = "rbxassetid://7734068321",
