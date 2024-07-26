@@ -38,7 +38,7 @@ Tab:AddSlider({
 	end    
 })
 local Tab = Window:MakeTab({
-	Name = "游戏",
+	Name = "⭐通用",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -46,27 +46,6 @@ Tab:AddButton({
 	Name = "飞行",
 	Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton({
-	Name = "战争大亨",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/WarTycoon", true))()
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton({
-	Name = "自然灾害",
-	Callback = function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/MAIN'))()
-      		print("button pressed")
-  	end    
-})
-Tab:AddButton({
-	Name = "自然灾害2",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackingProject/HPHub/main/HPHub.lua"))()
       		print("button pressed")
   	end    
 })
@@ -81,25 +60,53 @@ loadstring(game:HttpGet("https://pastebin.com/raw/GRp9rP98"))()
   	end    
 })
 Tab:AddButton({
-	Name = "外网脚本1",
+	Name = "穿墙(无拉回)",
 	Callback = function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+loadstring(game:HttpGet("https://github.com/DXuwu/OK/raw/main/clip"))()
+end
+})
+Tab:AddButton({
+	Name = "变身",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))();
+end
+})
+Tab:AddButton({
+	Name = "辅助脚本",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+end
+})
+Tab:AddButton({
+	Name = "指令",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end
+})		
+local Tab = Window:MakeTab({
+    Name = "🌟自然灾害",
+    Icon = "rbxassetid://7734068321",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "自然灾害",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/MAIN'))()
       		print("button pressed")
   	end    
 })
 Tab:AddButton({
-	Name = "外网脚本.2",
+	Name = "自然灾害2",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackingProject/HPHub/main/HPHub.lua"))()
       		print("button pressed")
   	end    
 })
-Tab:AddButton({
-	Name = "画画🎨",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/StarvingArtist.lua"))()
-      		print("button pressed")
-  	end    
+local Tab = Window:MakeTab({
+    Name = "🌟DOOR🚪",
+    Icon = "rbxassetid://7734068321",
+    PremiumOnly = false
 })
 Tab:AddButton({
 	Name = "脚本大全1.5",
@@ -114,34 +121,10 @@ loadstring(game:HttpGet("https://github.com/DocYogurt/free/raw/main/long"))()
 end
 })
 Tab:AddButton({
-	Name = "穿墙(无拉回)",
-	Callback = function()
-loadstring(game:HttpGet("https://github.com/DXuwu/OK/raw/main/clip"))()
-end
-})
-Tab:AddButton({
-	Name = "变身",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))();
-end
-})
-Tab:AddButton({
 	Name = "微山2.3.2",
 	Callback = function()
 --微山doors 2.3.2(愚人节快乐)
 loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\117\72\72\112\56\102\122\83"))()
-end
-})
-Tab:AddButton({
-	Name = "辅助脚本",
-	Callback = function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
-end
-})
-Tab:AddButton({
-	Name = "指令",
-	Callback = function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end
 })
 local Tab = Window:MakeTab({
@@ -267,6 +250,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "⭐星脚本",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/XhQpcE5m"))()
+	end    
+})
+
+Tab:AddButton({
     Name = "🥶冰",
     Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/GR4ChWKv"))()
@@ -278,4 +268,20 @@ Tab:AddButton({
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/sharksharksharkshark/shark-shark-shark-shark-shark/main/shark-scriptlollol.txt",true))()
     end
+})
+
+Tab:AddButton({
+	Name = "外网脚本1",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "外网脚本.2",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+      		print("button pressed")
+  	end    
 })
