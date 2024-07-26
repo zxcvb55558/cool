@@ -367,23 +367,9 @@ loadstring(game:HttpGet(SCC_CharPool[1]))()
 })
 
 Tab:AddButton({
-    Name = "🍺杯脚本🍺",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/zuohongjian/bjb/main/bjb"))()
-    end
-})
-
-Tab:AddButton({
     Name = "☁️云(白灰)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/6666666666/main/%E4%BA%91%E8%84%9A%E6%9C%AC%E6%B5%8B%E8%AF%95%E7%89%88%E4%BA%91%E8%84%9A%E6%9C%AC%E6%B5%8B%E8%AF%95%E7%89%88Xiao%20Yun.lua"))()
-    end
-})
-
-Tab:AddButton({
-    Name = "🚀核脚本🚀",
-    Callback = function()
-    getgenv().he="作者鱼"loadstring(game:HelpGet("https://pastebin.com/raw/2WmdapD2"))()
     end
 })
 
