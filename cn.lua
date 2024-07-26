@@ -166,6 +166,192 @@ Tab:AddButton({
     end
 })
 local Tab = Window:MakeTab({
+    Name = "🔥伐木脚本🔥",
+    Icon = "rbxassetid://7734068321",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "🏳️白🏳️",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Kavo-Ui/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A82.lua", true))()
+    end
+})
+
+Tab:AddButton({
+    Name = "🏳️白英文版🏳️",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+    end
+})
+
+local Tab = Window:MakeTab({
+	Name = "🌈彩虹好友🏳️‍🌈",
+	Icon = "rbxassetid://7734068321",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "1",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0rainbow'))()
+    end
+})
+
+local Tab = Window:MakeTab({
+	Name = "🌟生存巨人🌟",
+	Icon = "rbxassetid://7734068321",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "1",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/scripts/main/GiantSurvival.lua"))()
+    end
+})
+
+local player = Window:MakeTab({
+	Name = "🔥能力大战🔥",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1（会覆盖）",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/abilitywars/main/Protected%20(29).lua"))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "⭐️幸运方块战地⭐️",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet("https://github.com/bruhhwtf/LUCKY-BLOCKS-Battlegrounds-GUI/raw/main/Main"))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "👊最强拳击模拟器👊",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))();
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "🔪生存杀手🔪",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/Kiroftt/Survive-The-Killer/main/Simple'))();
+  	end
+})
+local player = Window:MakeTab({
+	Name = "ZO ぞ SAMURAI",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Blackout4781/Project-Sinister/main/ProjectSinisterLoader"))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "🔪杀手vs警长👩‍✈️",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0murder", true))()
+  	end
+})
+local player = Window:MakeTab({
+	Name = "3008",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua')()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "👊打墙模拟器",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/JunBloxYTPlayz/SORIX-Hub/main/Punch%20Wall%20Simulator"))();
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "逃出建筑💨",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1",
+	Callback = function()
+      	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "🏳️‍🌈在51区生存",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1（会覆盖）",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZONE100/ZoneHub/main/MultiGames"))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "🥪我的餐厅",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ 
+	Name = "1",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/mr.lua"))()
+  	end
+})
+local Tab = Window:MakeTab({
     Name = "🌟脚本中心🌟",
     Icon = "rbxassetid://7734068321",
     PremiumOnly = false
