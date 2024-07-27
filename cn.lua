@@ -211,7 +211,7 @@ Tab:AddButton({
     end
 })
 
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "🔥能力大战🔥",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -224,7 +224,7 @@ Tab:AddButton({
   	end
 })
 
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "⭐️幸运方块战地⭐️",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -237,7 +237,7 @@ Tab:AddButton({
   	end
 })
 
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "👊最强拳击模拟器👊",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -250,7 +250,7 @@ Tab:AddButton({
   	end
 })
 
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "🔪生存杀手🔪",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -262,7 +262,7 @@ Tab:AddButton({
       	loadstring(game:HttpGet('https://raw.githubusercontent.com/Kiroftt/Survive-The-Killer/main/Simple'))();
   	end
 })
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "ZO ぞ SAMURAI",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -275,7 +275,7 @@ Tab:AddButton({
   	end
 })
 
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "🔪杀手vs警长👩‍✈️",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -287,7 +287,7 @@ Tab:AddButton({
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0murder", true))()
   	end
 })
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "3008",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -300,7 +300,7 @@ Tab:AddButton({
   	end
 })
 
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "👊打墙模拟器",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -313,7 +313,7 @@ Tab:AddButton({
   	end
 })
 
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "逃出建筑💨",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -326,7 +326,7 @@ Tab:AddButton({
   	end
 })
 
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "🏳️‍🌈在51区生存",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -339,7 +339,7 @@ Tab:AddButton({
   	end
 })
 
-local player = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "🥪我的餐厅",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
