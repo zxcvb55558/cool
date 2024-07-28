@@ -5,11 +5,16 @@ local window = library:init("🇨🇳公告", true, Enum.KeyCode.RightShift, tru
 
 local sectionA = window:Section("公告")
 
+
 sectionA:Button("点击!", function()
    print("点击按钮.")
 end)
 
 sectionA:Label("本脚本永久免费.")
+
+sectionA:Label("🏀管理员🏀.")
+
+sectionA:Label("QQ群：无.")
 
 sectionA:Switch("滑动!", false, function(a)
    print(a)
@@ -19,7 +24,7 @@ sectionA:TextField("输入文本!", "Enter text here...", function(a)
    print(a)
 end)
 
-local sectionB = window:Section("🏀通用")
+local sectionB = window:Section("💎通用")
 
 sectionB:Divider("群主💰 are cool!")
 
@@ -46,4 +51,10 @@ window:GreenButton(function()
    print("You clicked the green button!")
 end)
 
-sectionA:Select()
+local sectionC = window:Section("🌹定制脚本")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
