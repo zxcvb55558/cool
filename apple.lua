@@ -5,16 +5,15 @@ local window = library:init("🇨🇳公告", true, Enum.KeyCode.RightShift, tru
 
 local sectionA = window:Section("公告")
 
-
-sectionA:Button("点击!", function()
-   print("点击按钮.")
-end)
+sectionA:Label("作者:☁️.")
 
 sectionA:Label("本脚本永久免费.")
 
 sectionA:Label("🏀管理员🏀.")
 
 sectionA:Label("QQ群：无.")
+
+sectionA:Label("群主定制˗ˏˋ ♡ ˎˊ˗  .")
 
 sectionA:Switch("滑动!", false, function(a)
    print(a)
@@ -56,5 +55,45 @@ local sectionC = window:Section("🌹定制脚本")
 sectionC:Divider("群主💰 are cool!")
 
 sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionD = window:Section("🚪DOOR")
+
+sectionD:Divider("群主💰 are cool!")
+
+sectionD:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionE = window:Section("🗻自然灾害")
+
+sectionE:Divider("群主💰 are cool!")
+
+sectionE:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionF = window:Section("💰Blox fruit")
+
+sectionF:Divider("群主💰 are cool!")
+
+sectionF:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionG = window:Section("💪力量")
+
+sectionG:Divider("群主💰 are cool!")
+
+sectionG:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionH = window:Section("待制作…")
+
+sectionH:Divider("群主💰 are cool!")
+
+sectionH:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
