@@ -576,6 +576,19 @@ Tab:AddButton({
 loadstring(game:HttpGet(SCC_CharPool[1]))()
     end
 })
+Tab:AddButton({
+	Name = "🏀波奇塔脚本",
+	Callback = function()
+--波奇搭小脚本中心"
+loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,113,109,55,76,121,119,82,117})end)())))()
+    end
+})
+Tab:AddButton({
+	Name = "复制波奇塔脚本卡密",
+	Callback = function()
+     setclipboard("152439974346918584688166784")
+  	end
+})
 
 Tab:AddButton({
     Name = "☁️云(白灰)",
@@ -706,3 +719,29 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/
       		print("button pressed")
   	end    
 })
+
+local Tab = Window:MakeTab({
+    Name = "🛠️blox fruit",
+    Icon = "rbxassetid://7734068321",
+    PremiumOnly = false	
+})
+Tab:AddButton({
+	Name = "1",
+	Callback = function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+	end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "👏巴掌模拟器",
+    Icon = "rbxassetid://7734068321",
+    PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "1",
+	Callback = function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Unknownkellymc1/Unknownscripts/main/slap-battles')))()		
+	end    
+})
+
+
