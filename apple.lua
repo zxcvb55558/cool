@@ -1,13 +1,11 @@
 local library = loadstring(game:HttpGet("https://github.com/GoHamza/AppleLibrary/blob/main/main.lua?raw=true"))()
 
 
-local window = library:init("Titlebar", true, Enum.KeyCode.RightShift, true)
+local window = library:init("公告", true, Enum.KeyCode.RightShift, true)
 
-window:Divider("I'm a divider!")
+local sectionA = window:Section("公告")
 
-local sectionA = window:Section("Test Elements")
-
-sectionA:Divider("I'm another divider!")
+sectionA:Divider("૮ •𖥦• აᐝ制作!")
 
 sectionA:Button("点击!", function()
    print("Button clicked.")
@@ -25,7 +23,7 @@ end)
 
 window:Divider("Just dividin'")
 
-local sectionB = window:Section("Test Notifications")
+local sectionB = window:Section("通用🏀")
 
 sectionB:Divider("群主 are cool!")
 
@@ -33,13 +31,13 @@ sectionB:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
-sectionB:Button("Notification 1", function() window:Notify("Hello!", "I am notification", "Button1", "rbxassetid://12608259004",
+sectionB:Button("测试 1", function() window:Notify("Hello!", "I am notification", "Button1", "rbxassetid://12608259004",
    function()
        print(1)
    end)
 end)
 
-sectionB:Button("Notification 2", function() window:Notify2("Hello!", "I am notification", "Button 1", "Button 2", "rbxassetid://12608259004",
+sectionB:Button("测试 2", function() window:Notify2("Hello!", "I am notification", "Button 1", "Button 2", "rbxassetid://12608259004",
    function()
        print(1)
    end,
@@ -49,7 +47,7 @@ sectionB:Button("Notification 2", function() window:Notify2("Hello!", "I am noti
 end)
 
 window:GreenButton(function()
-   print("You clicked the green button!")
+   print("点击绿色按钮!")
 end)
 
 sectionA:Select()
