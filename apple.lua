@@ -8,7 +8,7 @@ local sectionA = window:Section("公告")
 sectionA:Divider("🇨🇳云制作!")
 
 sectionA:Button("点击!", function()
-   print("
+   print("点击按钮")
 end)     
 sectionA:Label("本脚本处于测试阶段.")
 
