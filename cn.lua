@@ -18,6 +18,12 @@ Tab:AddButton({
       		print("button pressed")
   	end    
 })
+Tab:AddButton({
+	Name = "复制QQ",
+	Callback = function()
+     setclipboard("114514☁️")
+  	end
+})
 Tab:AddToggle({
 	Name = "This is a ☁️脚本!",
 	Default = false,
