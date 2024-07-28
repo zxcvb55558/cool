@@ -9,7 +9,7 @@ sectionA:Label("作者:☁️.")
 
 sectionA:Label("本脚本永久免费.")
 
-sectionA:Label("🏀管理员🏀.")
+sectionA:Label("☁️管理员.")
 
 sectionA:Label("QQ群：无.")
 
