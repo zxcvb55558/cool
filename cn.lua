@@ -202,6 +202,12 @@ loadstring(game:HttpGet("https://pastebin.com/raw/GRp9rP98"))()
   	end    
 })
 Tab:AddButton({
+	Name = "动画中心",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+  	end    
+})
+Tab:AddButton({
 	Name = "修改玩家碰撞箱",
 	Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/JYFXjEVh'))()
