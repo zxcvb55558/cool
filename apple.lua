@@ -15,11 +15,7 @@ sectionA:Label("QQ群：无.")
 
 sectionA:Label("群主定制˗ˏˋ ♡ ˎˊ˗  .")
 
-sectionA:Switch("滑动!", false, function(a)
-   print(a)
-end)
-
-sectionA:TextField("输入文本!", "Enter text here...", function(a)
+sectionA:Switch("管理员模式!", false, function(a)
    print(a)
 end)
 
