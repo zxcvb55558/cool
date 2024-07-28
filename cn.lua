@@ -174,6 +174,23 @@ Tab:AddButton({
       		print("button pressed")
   	end    
 })
+Tab:AddTextbox({
+	Name = "移动速度",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end	 
+})
+
+ Tab:AddTextbox({
+	Name = "跳跃高度",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end	 
+})
 Tab:AddButton({
 	Name = "飞车",
 	Callback = function()
@@ -183,6 +200,18 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://pastebin.com/raw/GRp9rP98"))()
       		print("button pressed")
   	end    
+})
+Tab:AddButton({
+	Name = "修改玩家碰撞箱",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/JYFXjEVh'))()
+end
+})
+Tab:AddButton({
+	Name = "通用ESP",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP'))()
+	end
 })
 Tab:AddButton({
     Name = "HUA 光影",
