@@ -5,12 +5,13 @@ local window = library:init("公告", true, Enum.KeyCode.RightShift, true)
 
 local sectionA = window:Section("公告")
 
-sectionA:Divider("૮ •𖥦• აᐝ制作!")
+sectionA:Divider("🇨🇳云制作!")
 
 sectionA:Button("点击!", function()
    print("Button clicked.")
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/ng/main/jmlllllllIIIIlllllII.lua"))()
 end)
-
+})
 sectionA:Label("Lorem ipsum dolor sit amet.")
 
 sectionA:Switch("Switch me!", false, function(a)
