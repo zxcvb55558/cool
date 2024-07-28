@@ -9,7 +9,7 @@ local sectionA = window:Section("Test Elements")
 
 sectionA:Divider("I'm another divider!")
 
-sectionA:Button("Click me!", function()
+sectionA:Button("点击!", function()
    print("Button clicked.")
 end)
 
@@ -27,10 +27,10 @@ window:Divider("Just dividin'")
 
 local sectionB = window:Section("Test Notifications")
 
-sectionB:Divider("Dividers are cool!")
+sectionB:Divider("群主 are cool!")
 
 sectionB:Button("Temporary Notification", function()
-   window:TempNotify("Be careful!", "We are going to beat you up.", "rbxassetid://12608259004")
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
 sectionB:Button("Notification 1", function() window:Notify("Hello!", "I am notification", "Button1", "rbxassetid://12608259004",
