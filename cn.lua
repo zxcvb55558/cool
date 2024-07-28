@@ -174,6 +174,12 @@ Tab:AddButton({
       		print("button pressed")
   	end    
 })
+Tab:AddButton({
+	Name = "自然灾害3",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Natural%20Disaster'))()
+        end    
+})		
 local Tab = Window:MakeTab({
     Name = "🌟DOOR🚪",
     Icon = "rbxassetid://7734068321",
