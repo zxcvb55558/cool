@@ -1,16 +1,18 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "☁️脚本", HidePremium = false, SaveConfig = true, ConfigFolder = "☁️脚本"})
-local Tab = Window:MakeTab({
-	Name = "公告",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
+
 OrionLib:MakeNotification({
 	Name = "☁️中心",
 	Content = "欢迎使用☁️脚本！",
 	Image = "rbxassetid://4483345998",
 	Time = 5
+})
+
+local Tab = Window:MakeTab({
+	Name = "☁️制作",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
 })
 Tab:AddButton({
 	Name = "☁️脚本",
@@ -33,7 +35,7 @@ Tab:AddToggle({
 })
 Tab:AddSlider({
 	Name = "打赏",
-	Min = 0,
+	Min = 50,
 	Max = 200,
 	Default = 50,
 	Color = Color3.fromRGB(255,255,255),
@@ -43,6 +45,18 @@ Tab:AddSlider({
 		print(Value)
 	end    
 })
+
+local Tab = Window:MakeTab({
+    Name = "🇨🇳脚本公告🇨🇳",
+    Icon = "rbxassetid://7734068321",
+    PremiumOnly = false
+})
+
+Tab:AddParagraph("作者","🏀管理员")
+Tab:AddLabel("作者QQ：☁️")
+Tab:AddLabel("QQ群：☁️")
+Tab:AddLabel("此脚本完全免费")
+
 local Tab = Window:MakeTab({
 	Name = "⭐通用",
 	Icon = "rbxassetid://4483345998",
@@ -66,16 +80,48 @@ loadstring(game:HttpGet("https://pastebin.com/raw/GRp9rP98"))()
   	end    
 })
 Tab:AddButton({
-	Name = "穿墙(无拉回)",
-	Callback = function()
-loadstring(game:HttpGet("https://github.com/DXuwu/OK/raw/main/clip"))()
-end
+    Name = "HUA 光影",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/arzRCgwS"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "光影_2",
+    Default = false,
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MZEEN2424/Graphics/main/Graphics.xml"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "超高画质",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jHBfJYmS"))()
+    end
+})
+Tab:AddToggle({
+	Name = "夜视",
+	Default = false,
+	Callback = function(Value)
+		if Value then
+		    game.Lighting.Ambient = Color3.new(1, 1, 1)
+		else
+		    game.Lighting.Ambient = Color3.new(0, 0, 0)
+		end
+	end
 })
 Tab:AddButton({
-	Name = "变身",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))();
-end
+    Name = "穿墙(无拉回)",
+    Callback = function()
+    loadstring(game:HttpGet("https://github.com/DXuwu/OK/raw/main/clip"))()
+    end
+})
+Tab:AddButton({
+    Name = "变身",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))();
+    end
 })
 Tab:AddButton({
 	Name = "辅助脚本",
