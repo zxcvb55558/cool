@@ -550,6 +550,12 @@ Name_4.TextXAlignment = Enum.TextXAlignment.Left
 Name_4.TextYAlignment = Enum.TextYAlignm
       end    
 })
+Tab:AddButton({
+	Name = "😎透视",
+	Callback = function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/UNIVERSALESPLTX/main/README.md'),true))()		
+        end    
+})
 
 local Tab = Window:MakeTab({
 	Name = "🤡最强战场🤡",
