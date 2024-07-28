@@ -3,6 +3,8 @@ local library = loadstring(game:HttpGet("https://github.com/GoHamza/AppleLibrary
 
 local window = library:init("🇨🇳公告", true, Enum.KeyCode.RightShift, true)
 
+window:TempNotify(titleText: string, paragraphText: string, icon: string)
+
 local sectionA = window:Section("公告")
 
 sectionA:Label("作者:☁️.")
