@@ -19,6 +19,14 @@ sectionA:Switch("管理员模式!", false, function(a)
    print(a)
 end)
 
+sectionA:Switch("暗色模式.", false, function(a)
+   print(a)
+end)
+
+sectionA:Switch("星星⭐字体!", false, function(a)
+   print(a)
+end)
+
 local sectionB = window:Section("💎通用")
 
 sectionB:Divider("群主💰 are cool!")
