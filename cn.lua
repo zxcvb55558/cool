@@ -158,9 +158,9 @@ Tab:AddParagraph("作者","🏀管理员")
 Tab:AddLabel("作者QQ：☁️")
 Tab:AddLabel("QQ群：☁️")
 Tab:AddLabel("此脚本完全免费")
-about:AddParagraph("脚本免费脚本 请勿去圈钱","")
-about:AddParagraph("我是个蔡坤。","")
-about:AddParagraph("还不快双击加关注。","")
+Tab:AddLabel("脚本免费脚本 请勿去圈钱","")
+Tab:AddLabel("我是个蔡坤。","")
+Tab:AddLabel("还不快双击加关注。","")
 
 local Tab = Window:MakeTab({
 	Name = "⭐通用",
