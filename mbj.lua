@@ -50,7 +50,7 @@ elseif a=="123fa98"then
 _G.she=true
 elseif a=="1234567899aaw"then
 _G.she=true
-elseif a=="CN_nuke"then
+elseif a=="KRY"then
 _G.she=true	
 elseif a=="cheems070828"then
 _G.she=true
