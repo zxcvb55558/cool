@@ -150,4 +150,53 @@ sectionN:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
+local sectionC = window:Section("🌹定制脚本")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("🌹定制脚本")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("🌹定制脚本")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("🌹定制脚本")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("🌹定制脚本")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("🌹定制脚本")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+
 local sectionO = window:Section("待制作…")
