@@ -94,68 +94,60 @@ sectionG:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
-local sectionC = window:Section("🔥伐木脚本🔥")
+local sectionH = window:Section("🔥伐木脚本🔥")
 
-sectionC:Divider("群主💰 are cool!")
+sectionH:Divider("群主💰 are cool!")
 
-sectionC:Button("Temporary Notification", function()
+sectionH:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
-local sectionC = window:Section("🌈彩虹好友")
+local sectionI = window:Section("🌈彩虹好友")
 
-sectionC:Divider("群主💰 are cool!")
+sectionI:Divider("群主💰 are cool!")
 
-sectionC:Button("Temporary Notification", function()
+sectionI:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
-local sectionC = window:Section("🌟生存巨人🌟")
+local sectionJ = window:Section("🌟生存巨人🌟")
 
-sectionC:Divider("群主💰 are cool!")
+sectionJ:Divider("群主💰 are cool!")
 
-sectionC:Button("Temporary Notification", function()
+sectionJ:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
-local sectionC = window:Section("⭐️幸运方块战地⭐️")
+local sectionK = window:Section("⭐️幸运方块战地⭐️")
 
-sectionC:Divider("群主💰 are cool!")
+sectionK:Divider("群主💰 are cool!")
 
-sectionC:Button("Temporary Notification", function()
+sectionK:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
-local sectionC = window:Section("👊最强拳击模拟器👊")
+local sectionL = window:Section("👊最强拳击模拟器👊")
 
-sectionC:Divider("群主💰 are cool!")
+sectionL:Divider("群主💰 are cool!")
 
-sectionC:Button("Temporary Notification", function()
+sectionL:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
-local sectionC = window:Section("🔪生存杀手🔪")
+local sectionM = window:Section("🔪生存杀手🔪")
 
-sectionC:Divider("群主💰 are cool!")
+sectionM:Divider("群主💰 are cool!")
 
-sectionC:Button("Temporary Notification", function()
+sectionM:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
-local sectionC = window:Section("🥪我的餐厅")
+local sectionN = window:Section("🥪我的餐厅")
 
-sectionC:Divider("群主💰 are cool!")
+sectionN:Divider("群主💰 are cool!")
 
-sectionC:Button("Temporary Notification", function()
+sectionN:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
-local sectionC = window:Section("🏳️‍🌈在51区生存")
-
-sectionC:Divider("群主💰 are cool!")
-
-sectionC:Button("Temporary Notification", function()
-   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
-end)
-
-local sectionC = window:Section("待制作…")
+local sectionO = window:Section("待制作…")
