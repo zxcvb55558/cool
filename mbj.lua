@@ -339,5 +339,18 @@ Tab:AddButton({
 	Name = "指令",
 	Callback = function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-end
+  end
 })
+
+   wait(3) --等待三秒
+  --你的脚本
+    else --验证失败执行↓
+setclipboard("哈哈没有")
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证失败",
+    Text = "你并没有白名单其实没有链接，因为你没玩元神",
+    Duration = 10, --时间
+})
+end 	
