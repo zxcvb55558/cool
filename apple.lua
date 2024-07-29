@@ -94,10 +94,68 @@ sectionG:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
 
-local sectionH = window:Section("待制作…")
+local sectionC = window:Section("🔥伐木脚本🔥")
 
-sectionH:Divider("群主💰 are cool!")
+sectionC:Divider("群主💰 are cool!")
 
-sectionH:Button("Temporary Notification", function()
+sectionC:Button("Temporary Notification", function()
    window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
 end)
+
+local sectionC = window:Section("🌈彩虹好友")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("🌟生存巨人🌟")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("⭐️幸运方块战地⭐️")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("👊最强拳击模拟器👊")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("🔪生存杀手🔪")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("🥪我的餐厅")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("🏳️‍🌈在51区生存")
+
+sectionC:Divider("群主💰 are cool!")
+
+sectionC:Button("Temporary Notification", function()
+   window:TempNotify("小心!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+
+local sectionC = window:Section("待制作…")
