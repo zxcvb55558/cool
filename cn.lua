@@ -949,6 +949,35 @@ Tab:AddButton({
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/JunBloxYTPlayz/SORIX-Hub/main/Punch%20Wall%20Simulator"))();
   	end
 })
+local Tab = Window:MakeTab({
+	Name = "越狱",
+	Icon = "rbxassetid://7733779610",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+  Name = "自瞄",
+  Callback = function ()
+loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+  end
+
+})
+
+Tab:AddButton({
+
+  Name = "青",
+  Callback = function ()
+loadstring(game:HttpGet('https://rentry.co/ct293/raw'))()
+  end
+
+})
+
+Tab:AddButton({
+  Name = "自动抢劫",
+  Callback = function ()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/free"))()
+  end
+})
 
 local Tab = Window:MakeTab({
 	Name = "逃出建筑💨",
